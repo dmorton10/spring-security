@@ -99,7 +99,7 @@ public abstract class AbstractAuthenticationFilterConfigurer<B extends HttpSecur
 	/**
 	 * Specifies where users will go after authenticating successfully if they have not
 	 * visited a secured page prior to authenticating. This is a shortcut for calling
-	 * {@link #defaultSuccessUrl(String)}.
+	 * {@link #defaultSuccessUrl(String, false)}.
 	 *
 	 * @param defaultSuccessUrl the default success url
 	 * @return the {@link FormLoginConfigurer} for additional customization
